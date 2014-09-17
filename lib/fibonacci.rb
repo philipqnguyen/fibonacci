@@ -1,5 +1,4 @@
 class Fibonacci
-
   def position(target_pos)
     return "Invalid input" if invalid_input(target_pos)
 
@@ -14,7 +13,7 @@ class Fibonacci
     end
   end
 
-private
+  private
 
   def sequence(previous_nums, current_pos, target_pos)
     previous_nums = [previous_nums[1], previous_nums[0] + previous_nums[1]]
