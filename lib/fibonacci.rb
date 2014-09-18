@@ -23,10 +23,6 @@ class Fibonacci
   end
 
   def invalid_input(target_pos)
-    if target_pos.is_a?(Integer) && target_pos >= 0
-      false
-    else
-      true
-    end
+    target_pos.is_a?(Integer) && target_pos >= 0 ? false : true
   end
 end
