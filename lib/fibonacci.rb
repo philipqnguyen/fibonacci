@@ -7,9 +7,7 @@ class Fibonacci
     elsif target_pos == 1
       1
     else
-      current_pos = 2
-      previous_nums = [0, 1]
-      sequence(previous_nums, current_pos, target_pos)
+      sequence([0, 1], 2, target_pos)
     end
   end
 
